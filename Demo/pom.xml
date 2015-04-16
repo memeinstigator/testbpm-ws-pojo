@@ -6,6 +6,13 @@
   <artifactId>Demo</artifactId>
   <version>1.0</version>
   <name>Demo</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.redhat.demo.example.domain</groupId>
+      <artifactId>MyTestDomain</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
